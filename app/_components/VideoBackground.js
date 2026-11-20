@@ -20,7 +20,7 @@ function VideoBackground({
         <p
           className={`max-w-2xl text-lg leading-relaxed font-medium text-gray-100 md:text-2xl ${buttonDisplay ? "mb-4" : ""}`}
         >
-          <span className="block text-4xl pb-4 font-bold italic ">
+          <span className="block max-w-2xl text-xl pb-3 font-bold italic md:text-3xl ">
             {textOne}
           </span>
 

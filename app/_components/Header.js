@@ -27,7 +27,7 @@ function Header({ buttonDisplay }) {
           }`}
         >
           {/* Logo Area */}
-          <div className="relative -left-6 h-20 w-24 transition-transform hover:scale-105 md:h-20 md:w-30">
+          <div className="relative -left-5 h-18 w-24 transition-transform hover:scale-105 md:h-20 md:w-30">
             <Link href="/">
               <Image
                 src="/logo.png"

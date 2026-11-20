@@ -1,5 +1,4 @@
 import HeroSection from "../_components/HeroSection";
-import SocialMedia from "../_components/SocialMedia";
 import ContactData from "../_components/ContactDataa";
 import { informationData } from "../_data/servicesData";
 import MapWrapper from "../_ui/MapWrapper";
@@ -74,9 +73,9 @@ function ContactPage() {
 
             <a
               href="mailto:info@illawarraphysiocare.com.au"
-              className="group bg-primary hover:text-primary flex items-center gap-4 rounded-full px-8 py-4 text-lg font-bold transition-all duration-300 hover:bg-white"
+              className="group bg-primary hover:text-primary flex items-center gap-4 rounded-full px-3 py-4 text-sm font-bold transition-all duration-300 max-w-full hover:bg-white md:text-2xl"
             >
-              <Mail className="shrink-0 transition-transform duration-500 group-hover:scale-110 group-hover:rotate-12" />
+              <Mail className="shrink-0 transition-transform duration-500 group-hover:scale-110 group-hover:rotate-12 text-" />
               info@illawarraphysiocare.com.au
             </a>
 
